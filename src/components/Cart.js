@@ -15,7 +15,7 @@ const Cart = () => {
         <div className='text-center m-4 p-4'>
             <h1 className='text-2xl font-bold'>Cart</h1>
             <button
-                className='p-2 m-2 rounded-lg bg-gray-500'
+                className='p-2 m-2 rounded-lg bg-gray-500 text-white font-semibold'
                 onClick={handleClearCart}
             >
                 Clear
