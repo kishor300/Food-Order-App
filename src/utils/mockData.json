@@ -1,0 +1,1269 @@
+{
+  "data": {
+    "restaurants": [
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "372375",
+          "name": "Baskin Robbins - Ice Cream Desserts",
+          "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
+          "locality": "Jay Ganesh Samrajya",
+          "areaName": "Bhosari",
+          "costForTwo": "₹250 for two",
+          "cuisines": [
+            "Desserts",
+            "Ice Cream"
+          ],
+          "avgRating": 4.6,
+          "veg": true,
+          "parentId": "5588",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "215",
+          "sla": {
+            "deliveryTime": 31,
+            "lastMileTravel": 4.7,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "4.7 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:59:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "50% OFF",
+            "subHeader": "UPTO ₹100"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/baskin-robbins-ice-cream-desserts-jay-ganesh-samrajya-bhosari-rest372375",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "560848",
+          "name": "Kannu Ki Chai",
+          "cloudinaryImageId": "72c26c808a3b4769e7bbdc5be1ac7010",
+          "locality": "Jhamtani Impression",
+          "areaName": "Pimpri",
+          "costForTwo": "₹350 for two",
+          "cuisines": [
+            "Beverages",
+            "Snacks",
+            "Pizzas",
+            "Fast Food"
+          ],
+          "avgRating": 3.2,
+          "parentId": "114751",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "688",
+          "sla": {
+            "deliveryTime": 43,
+            "lastMileTravel": 5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "40-45 mins",
+            "lastMileTravelString": "5.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:59:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "subHeader": "UPTO ₹45"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/kannu-ki-chai-jhamtani-impression-pimpri-rest560848",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "8801",
+          "name": "Geeta Pav Bhaji",
+          "cloudinaryImageId": "1053423198dd62c4a112f158c5f6840d",
+          "locality": "Akurdi",
+          "areaName": "Akurdi",
+          "costForTwo": "₹300 for two",
+          "cuisines": [
+            "South Indian",
+            "Juices",
+            "Ice Cream"
+          ],
+          "avgRating": 4.3,
+          "parentId": "8368",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "35K+",
+          "sla": {
+            "deliveryTime": 40,
+            "lastMileTravel": 8.6,
+            "serviceability": "SERVICEABLE",
+            "slaString": "35-40 mins",
+            "lastMileTravelString": "8.6 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:00:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "50% OFF",
+            "discountTag": "FLAT DEAL"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "4.2",
+              "ratingCount": "8.9K+"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/geeta-pav-bhaji-akurdi-rest8801",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "673565",
+          "name": "Amore Gelato - Italian Ice Cream",
+          "cloudinaryImageId": "3467b56a3428dcfa585df800fa719412",
+          "locality": "40 NEAR GOVIND GARDEN HOTEL",
+          "areaName": "Pimple Saudagar",
+          "costForTwo": "₹200 for two",
+          "cuisines": [
+            "Ice Cream",
+            "Desserts"
+          ],
+          "avgRating": 3.5,
+          "veg": true,
+          "parentId": "430495",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "134",
+          "sla": {
+            "deliveryTime": 35,
+            "lastMileTravel": 4.7,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "4.7 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:00:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "40% OFF",
+            "subHeader": "UPTO ₹75"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/amore-gelato-italian-ice-cream-40-near-govind-garden-hotel-pimple-saudagar-rest673565",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "22766",
+          "name": "The Chef's Way Cafe",
+          "cloudinaryImageId": "ylzjsc5vlllrztcghw9z",
+          "locality": "Khadki",
+          "areaName": "Sangvi",
+          "costForTwo": "₹500 for two",
+          "cuisines": [
+            "Mexican",
+            "Italian",
+            "American",
+            "French"
+          ],
+          "avgRating": 3.9,
+          "parentId": "3250",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "563",
+          "sla": {
+            "deliveryTime": 58,
+            "lastMileTravel": 8.5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "55-60 mins",
+            "lastMileTravelString": "8.5 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 22:00:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "subHeader": "UPTO ₹50"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "4.3",
+              "ratingCount": "457"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/the-chefs-way-cafe-khadki-sangvi-rest22766",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "849164",
+          "name": "Bombay Ice Cream Co",
+          "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/22/0e44e25d-80c5-436b-93d7-cc7e42eefd95_849164.JPG",
+          "locality": "PALM BREEZE",
+          "areaName": "Pimple Saudagar",
+          "costForTwo": "₹210 for two",
+          "cuisines": [
+            "Ice Cream",
+            "Desserts"
+          ],
+          "avgRating": 4.1,
+          "veg": true,
+          "parentId": "500338",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "129",
+          "sla": {
+            "deliveryTime": 23,
+            "lastMileTravel": 4.7,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20-25 mins",
+            "lastMileTravelString": "4.7 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-21 00:00:00",
+            "opened": true
+          },
+          "badges": {
+            "imageBadges": [
+              {
+                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                "description": "pureveg"
+              }
+            ]
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {
+                "badgeObject": [
+                  {
+                    "attributes": {
+                      "description": "pureveg",
+                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                    }
+                  }
+                ]
+              },
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹120"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/bombay-ice-cream-co-palm-breeze-pimple-saudagar-rest849164",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "83436",
+          "name": "Sangeeta Dabeli",
+          "cloudinaryImageId": "xc7ta24nmkqubjlepzic",
+          "locality": "Samarth Nagar",
+          "areaName": "Pimple Gurav",
+          "costForTwo": "₹100 for two",
+          "cuisines": [
+            "Fast Food"
+          ],
+          "avgRating": 3.8,
+          "veg": true,
+          "parentId": "177189",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "986",
+          "sla": {
+            "deliveryTime": 36,
+            "lastMileTravel": 5.5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "35-40 mins",
+            "lastMileTravelString": "5.5 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 22:00:00",
+            "opened": true
+          },
+          "badges": {
+            "imageBadges": [
+              {
+                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                "description": "pureveg"
+              }
+            ]
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {
+                "badgeObject": [
+                  {
+                    "attributes": {
+                      "description": "pureveg",
+                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                    }
+                  }
+                ]
+              },
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "10% OFF",
+            "subHeader": "UPTO ₹40"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/sangeeta-dabeli-samarth-nagar-pimple-gurav-rest83436",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "675918",
+          "name": "Cafe Dalgona ( Korean Cafe & Restaurant)",
+          "cloudinaryImageId": "862b859f2b45aedb9ffa7f715523c7c5",
+          "locality": "Tampu Residence",
+          "areaName": "Wakad",
+          "costForTwo": "₹500 for two",
+          "cuisines": [
+            "Korean"
+          ],
+          "avgRating": 4.9,
+          "parentId": "404192",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "157",
+          "sla": {
+            "deliveryTime": 41,
+            "lastMileTravel": 9.6,
+            "serviceability": "SERVICEABLE",
+            "slaString": "40-45 mins",
+            "lastMileTravelString": "9.6 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 22:00:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "10% OFF",
+            "subHeader": "UPTO ₹40"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/cafe-dalgona-korean-cafe-and-restaurant-tampu-residence-wakad-rest675918",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "25845",
+          "name": "Taste Of Indore Fun Food Since 2016",
+          "cloudinaryImageId": "elinrtfdmkrsfrqqt7pf",
+          "locality": "Pimple Saudagar",
+          "areaName": "Pimple Saudagar",
+          "costForTwo": "₹200 for two",
+          "cuisines": [
+            "Chaat",
+            "Snacks",
+            "Street Food",
+            "Sweets"
+          ],
+          "avgRating": 3.1,
+          "parentId": "488156",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "35K+",
+          "sla": {
+            "deliveryTime": 34,
+            "lastMileTravel": 6.1,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "6.1 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 22:30:00",
+            "opened": true
+          },
+          "badges": {
+            "imageBadges": [
+              {
+                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                "description": "pureveg"
+              }
+            ]
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {
+                "badgeObject": [
+                  {
+                    "attributes": {
+                      "description": "pureveg",
+                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                    }
+                  }
+                ]
+              },
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "50% OFF",
+            "subHeader": "UPTO ₹100"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "4.3",
+              "ratingCount": "3.7K+"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/taste-of-indore-fun-food-since-2016-pimple-saudagar-rest25845",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "719314",
+          "name": "Baithack Taste of Kulhad",
+          "cloudinaryImageId": "fcee676df41abe3fa8b474ece9d2b77d",
+          "locality": "Rose Icon",
+          "areaName": "Pimple Saudagar",
+          "costForTwo": "₹200 for two",
+          "cuisines": [
+            "Beverages",
+            "Italian-American",
+            "Fast Food",
+            "Snacks"
+          ],
+          "avgRating": 4.4,
+          "veg": true,
+          "parentId": "310674",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "283",
+          "sla": {
+            "deliveryTime": 31,
+            "lastMileTravel": 5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "5.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:00:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "10% OFF",
+            "subHeader": "UPTO ₹40"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/baithack-taste-of-kulhad-rose-icon-pimple-saudagar-rest719314",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "297942",
+          "name": "Aamhi Pohekar",
+          "cloudinaryImageId": "ziorq4smpjlb9ckscy9s",
+          "locality": "Samarth Nagar",
+          "areaName": "Sangvi",
+          "costForTwo": "₹200 for two",
+          "cuisines": [
+            "Snacks",
+            "South Indian"
+          ],
+          "avgRating": 4.6,
+          "parentId": "25785",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "886",
+          "sla": {
+            "deliveryTime": 34,
+            "lastMileTravel": 5.5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "5.5 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 19:00:00",
+            "opened": true
+          },
+          "badges": {
+            "imageBadges": [
+              {
+                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                "description": "pureveg"
+              }
+            ]
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {
+                "badgeObject": [
+                  {
+                    "attributes": {
+                      "description": "pureveg",
+                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                    }
+                  }
+                ]
+              },
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "10% OFF",
+            "subHeader": "UPTO ₹40"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/aamhi-pohekar-samarth-nagar-sangvi-rest297942",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "197250",
+          "name": "Delight pizza and cafe",
+          "cloudinaryImageId": "t6iqrmpuuywg9gq2nrwx",
+          "locality": "MIDC",
+          "areaName": "Bhosari",
+          "costForTwo": "₹200 for two",
+          "cuisines": [
+            "Fast Food",
+            "Pizzas"
+          ],
+          "avgRating": 2.8,
+          "parentId": "70558",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "518",
+          "sla": {
+            "deliveryTime": 53,
+            "lastMileTravel": 8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "50-55 mins",
+            "lastMileTravelString": "8.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:00:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "10% OFF",
+            "subHeader": "UPTO ₹40"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/delight-pizza-and-cafe-midc-bhosari-rest197250",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "918718",
+          "name": "AASWAD PURE VEG",
+          "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/11/6748caad-5cf2-4f76-b67c-3431db27e991_918718.jpg",
+          "locality": "Safalaya society",
+          "areaName": "Jadhavwadi",
+          "costForTwo": "₹250 for two",
+          "cuisines": [
+            "Chinese",
+            "Indian",
+            "Fast Food"
+          ],
+          "avgRating": 4.5,
+          "veg": true,
+          "parentId": "26275",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "103",
+          "sla": {
+            "deliveryTime": 36,
+            "lastMileTravel": 6.3,
+            "serviceability": "SERVICEABLE",
+            "slaString": "35-40 mins",
+            "lastMileTravelString": "6.3 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:00:00",
+            "opened": true
+          },
+          "badges": {
+            "imageBadges": [
+              {
+                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                "description": "pureveg"
+              }
+            ]
+          },
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {
+                "badgeObject": [
+                  {
+                    "attributes": {
+                      "description": "pureveg",
+                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                    }
+                  }
+                ]
+              },
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "₹150 OFF",
+            "subHeader": "ABOVE ₹299",
+            "discountTag": "FLAT DEAL"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "isNewlyOnboarded": true,
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/aaswad-pure-veg-safalaya-society-jadhavwadi-rest918718",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "38583",
+          "name": "Hotel Ashoka Regency",
+          "cloudinaryImageId": "gtpfofocbydk372izxll",
+          "locality": "Chinchwad",
+          "areaName": "Chinchwad",
+          "costForTwo": "₹400 for two",
+          "cuisines": [
+            "Chinese",
+            "Seafood"
+          ],
+          "avgRating": 3.0,
+          "parentId": "98157",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "640",
+          "sla": {
+            "deliveryTime": 41,
+            "lastMileTravel": 6.4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "40-45 mins",
+            "lastMileTravelString": "6.4 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:45:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "subHeader": "UPTO ₹50"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "4.1",
+              "ratingCount": "87"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/hotel-ashoka-regency-chinchwad-rest38583",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      },
+      {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "707844",
+          "name": "La Cherie Cheesecake",
+          "cloudinaryImageId": "16ef659384104734d2a2395e0a6a4362",
+          "locality": "Siddhi Complex",
+          "areaName": "Sangvi",
+          "costForTwo": "₹500 for two",
+          "cuisines": [
+            "Desserts",
+            "Bakery"
+          ],
+          "avgRating": 4.2,
+          "parentId": "122433",
+          "avgRatingString": "4.6",
+          "totalRatingsString": "165",
+          "sla": {
+            "deliveryTime": 41,
+            "lastMileTravel": 5.5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "40-45 mins",
+            "lastMileTravelString": "5.5 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "nextCloseTime": "2024-12-20 23:00:00",
+            "opened": true
+          },
+          "badges": {},
+          "isOpen": true,
+          "type": "F",
+          "badgesV2": {
+            "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+            }
+          },
+          "aggregatedDiscountInfoV3": {
+            "header": "10% OFF",
+            "subHeader": "UPTO ₹35"
+          },
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+          },
+          "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+            }
+          },
+          "reviewsSummary": {},
+          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          "restaurantOfferPresentationInfo": {},
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "--"
+            }
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+          "context": "seo-data-828084e4-9722-4db4-be78-2d3f9160633e"
+        },
+        "cta": {
+          "link": "https://www.swiggy.com/city/pune/la-cherie-cheesecake-siddhi-complex-sangvi-rest707844",
+          "text": "RESTAURANT_MENU",
+          "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+      }
+    ]
+  }
+}

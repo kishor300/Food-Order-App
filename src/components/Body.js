@@ -1,0 +1,184 @@
+import React, { useState, useEffect, useContext } from "react";
+// import mockData from "../utils/mockData.json" assert {type: 'json'};
+import RestaurantCard from "./RestaurantCard";
+import Shimmer from "./Shimmer";
+import WithPromotedLabel from "./WithPromotedLabel";
+import UserContext from "../utils/UserContext";
+
+// const restoData = mockData.data.restaurants;
+
+// Access promoted resto from High-Order-Component `WithPromotedLabel`
+const PromotedRestaurantCard = WithPromotedLabel(RestaurantCard);
+
+const Body = () => {
+
+    // Declaring state_varaible and its function to update value
+    // const [restoArr, setRestoArr] = useState(restoData);
+    const [restoArr, setRestoArr] = useState([]);
+
+    useEffect(() => {
+        fetchData();
+    }, []);
+
+    const fetchData = async () => {
+
+        // Below code needs CORS extension to be installed in Browser.
+        // CORS plugin bypass the CORS issue.
+        const data = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.624480699999999&page_type=DESKTOP_WEB_LISTING');
+
+        const jsonData = await data.json();
+        console.log("jsonData -->", jsonData);
+
+        const jsonDataCards = jsonData?.data?.cards || [];
+        console.log('jsonDataCards : ', jsonDataCards);
+
+        let restoData;
+        for (let i = 0; i < jsonDataCards.length; i++) {
+            const myRestaurants = jsonDataCards[i]?.card?.card;
+            if (myRestaurants?.gridElements?.infoWithStyle?.restaurants) {
+                console.log(` i'th card has restaurant data : `, i);
+                restoData = myRestaurants?.gridElements?.infoWithStyle?.restaurants;
+                break;
+            }
+        }
+
+        console.log("hierarchy -->", restoData);
+
+        setRestoArr(restoData);
+    }
+
+    return restoArr.length === 0 ? (<Shimmer />) : (
+        <BodyWithData restoArr={restoArr} setRestoArr={setRestoArr} />
+    );
+
+};
+
+const BodyWithData = ({ restoArr, setRestoArr }) => {
+
+    console.log("Body Rendered !!");
+
+    // Another state variable used to filter restaurants
+    const [filteredRestoArr, setFilteredRestoArr] = useState(restoArr);
+
+    // state variable for input search
+    const [searchText, setSearchText] = useState("");
+
+    // // Accessing the values passed by context provider from App.js
+    // const { loggedInUser, setUserName } = useContext(UserContext);
+
+    return (
+        <div className="body mx-4">
+
+            {/* Use Of Context */}
+            {/* <div>
+                <label>User Name</label>
+                <input
+                    type="text"
+                    className="border-[0.5px] m-2 p-2 rounded-md outline-none"
+                    // `loggedInUser` is the Context from UserContext
+                    value={loggedInUser}
+                    // Context will update when this callback fun is called on every change
+                    onChange={(e) => setUserName(e.target.value)}
+                />
+            </div> */}
+
+            {/* Action */}
+            <div className="flex my-4">
+
+                {/* Search Restaurant */}
+                <div className="flex items-center mx-2">
+                    <input
+                        data-testid="search-input"
+                        type="text"
+                        className="h-10 p-2 rounded-l-[40px] outline-none
+                         border-[0.5px] border-[#c6c6c6] border-r-0"
+                        placeholder="Search"
+                        value={searchText}
+                        onChange={(event) => {
+                            setSearchText(event.target.value);
+                        }}
+                    />
+                    <button
+                        data-testid="search-button"
+                        className="border-[0.5px] p-2 rounded-r-[40px]
+                         outline-none border-[#c6c6c6] h-10"
+                        onClick={() => {
+                            // search restaurant from main array
+                            const searchedResto = restoArr.filter((res) => {
+                                return (
+                                    res.info.name.toLowerCase().includes(searchText.toLowerCase())
+                                    // Never forget to write this in return() else won't work !
+                                )
+                            })
+                            console.log("searchedResto :", searchedResto);
+                            // update only to filtered array
+                            setFilteredRestoArr(searchedResto);
+
+                        }}>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="gray"
+                            height="18"
+                            width="18"
+                            viewBox="0 0 24 24"
+                            focusable="false"
+                            aria-hidden="true"
+                            style={{ pointerEvents: 'none', display: 'inherit', width: '100%', height: '100%' }}
+                        >
+                            <path
+                                clipRule="evenodd"
+                                d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z"
+                                fillRule="evenodd"
+                                stroke="gray"
+                                strokeWidth="1"
+                            />
+                        </svg>
+                    </button>
+                </div>
+
+                {/* Filter Restaurant */}
+                <button
+                    className="m-2 cursor-pointer bg-orange-500 rounded-md p-2 text-white
+                    font-medium"
+                    onClick={() => {
+
+                        const filteredResto = restoArr.filter((res) => {
+                            return res.info.avgRating >= 4.5;
+                        });
+
+                        // console.log("filteredResto = ", filteredResto);
+
+                        // update only to filtered array
+                        setFilteredRestoArr(filteredResto);
+
+                    }}>Top Rated Restaurants</button>
+            </div>
+
+            {/* Restaurant Container */}
+
+            <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-items-center gap-2">
+
+                {/* {console.log("filteredRestoArr ==> ", filteredRestoArr)} */}
+
+                {
+                    filteredRestoArr.map((my_restaurant) => {
+
+                        return (
+                            <div key={my_restaurant.info.id}>
+                                {
+                                    my_restaurant.info.avgRating > 4.5
+                                        ? <PromotedRestaurantCard resData={my_restaurant} />
+                                        : <RestaurantCard resData={my_restaurant} />
+                                }
+                            </div>
+
+                        )
+                    })
+                }
+            </div>
+
+        </div >
+    );
+}
+
+export default Body;
