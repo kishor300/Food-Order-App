@@ -20,6 +20,7 @@ import appStore from "./src/utils/appStore.js";
 import Cart from "./src/components/Cart.js";
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+/*
 // Lazy Loading
 const Grocery = lazy(() => {
 
@@ -27,6 +28,7 @@ const Grocery = lazy(() => {
         import("./src/components/Grocery")
     )
 });
+*/
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const AppLayout = () => {
