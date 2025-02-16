@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import RestaurantCard from "../RestaurantCard";
-import MOCK_DATA from "../mocks/resCardMock.json"
+import MOCK_DATA from "../mocks/resCardMock.json";
 import { BrowserRouter } from "react-router";
 import WithPromotedLabel from "../WithPromotedLabel";
 

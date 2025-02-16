@@ -4,6 +4,7 @@ import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import WithPromotedLabel from "./WithPromotedLabel";
 import UserContext from "../utils/UserContext";
+import JSON_DATA from "../utils/json_data_main.json";
 
 // const restoData = mockData.data.restaurants;
 
@@ -22,12 +23,17 @@ const Body = () => {
 
     const fetchData = async () => {
 
-        // Below code needs CORS extension to be installed in Browser.
-        // CORS plugin bypass the CORS issue.
-        const data = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.624480699999999&page_type=DESKTOP_WEB_LISTING');
+        // [1] Usign Dynamic Data
 
-        const jsonData = await data.json();
-        console.log("jsonData -->", jsonData);
+        // // Below code needs CORS extension to be installed in Browser.
+        // // CORS plugin bypass the CORS issue.
+        // const data = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.624480699999999&page_type=DESKTOP_WEB_LISTING');
+
+        // const jsonData = await data.json();
+        // console.log("jsonData -->", jsonData);
+
+        // [2] Usign Static Data
+        const jsonData = JSON_DATA;
 
         const jsonDataCards = jsonData?.data?.cards || [];
         console.log('jsonDataCards : ', jsonDataCards);
