@@ -8,7 +8,7 @@ const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
     // const [showItems, setShowItems] = useState(false);
 
     return (
-        <div className='w-6/12 mx-auto bg-gray-50 shadow-md my-4'>
+        <div className='w-[80vw] sm:w-[50vw] mx-auto bg-gray-50 shadow-md my-4'>
             {/* Accordion Header */}
             <div
                 data-testid='accordion_header'
