@@ -3,13 +3,19 @@ import Shimmer from './Shimmer';
 import { useParams } from 'react-router';
 import useRestaurantMenu from '../utils/useRestaurantMenu';
 import RestaurantCategory from './RestaurantCategory';
+import RES_INFO from '../utils/mock_resInfo.json';
 
 function RestaurantMenu() {
 
+    /*
+    // [1] Dynamic Way
     const { resId } = useParams(); // Accessing parameters from URL
     // Custome Hook
     const resInfo = useRestaurantMenu(resId);
     console.log(`resInfo : `, resInfo);
+    */
+    // [2] Static Way
+    const resInfo = RES_INFO;
 
     console.log("Menu Info ===== ", resInfo?.data?.cards[2]?.card?.card?.info);
 

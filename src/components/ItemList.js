@@ -19,15 +19,18 @@ const ItemList = ({ items }) => {
             {items.map((item) => {
                 return (
                     <div
-                        data-testid='resto_item'
                         key={item.card.info.id}
-                        className='flex justify-between pl-2 pt-2 pb-5 m-2 border-gray-200 border-b-2'
+                        data-testid='resto_item'
+                        className='flex gap-x-4 sm:justify-between 
+                        pl-2 pt-2 pb-5 m-2
+                        text-justify
+                        border-gray-200 border-b-2'
                     >
                         {/* Item Card - Left Side*/}
                         <div className='w-10/12'>
                             <div className='pb-2'>
-                                <span>{item.card.info.name}</span>
-                                <span> - ₹ {item.card.info.price / 100 || item.card.info.defaultPrice / 100}</span>
+                                <span>{item.card.info.name} -</span>
+                                <span className='block sm:inline'> ₹ {item.card.info.price / 100 || item.card.info.defaultPrice / 100} /-</span>
                             </div>
                             <p className='text-xs'>{item.card.info.description}</p>
                         </div>

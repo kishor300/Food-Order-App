@@ -4,7 +4,7 @@ import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import WithPromotedLabel from "./WithPromotedLabel";
 import UserContext from "../utils/UserContext";
-import JSON_DATA from "../utils/json_data_main.json";
+import JSON_DATA from "../utils/mock_jsonData_main.json";
 
 // const restoData = mockData.data.restaurants;
 
@@ -73,7 +73,7 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
     // const { loggedInUser, setUserName } = useContext(UserContext);
 
     return (
-        <div className="body mx-4">
+        <div className="body mx-2 sm:mx-4">
 
             {/* Use Of Context */}
             {/* <div>
@@ -89,15 +89,15 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
             </div> */}
 
             {/* Action */}
-            <div className="flex my-4">
+            <div className="flex my-4 text-xs sm:text-base">
 
                 {/* Search Restaurant */}
                 <div className="flex items-center mx-2">
                     <input
                         data-testid="search-input"
                         type="text"
-                        className="h-10 p-2 rounded-l-[40px] outline-none
-                         border-[0.5px] border-[#c6c6c6] border-r-0"
+                        className="h-8 p-2 rounded-l-[40px] outline-none border-[0.5px] border-[#c6c6c6] border-r-0 
+                        w-[30vw] sm:w-auto"
                         placeholder="Search"
                         value={searchText}
                         onChange={(event) => {
@@ -106,8 +106,9 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
                     />
                     <button
                         data-testid="search-button"
-                        className="border-[0.5px] p-2 rounded-r-[40px]
-                         outline-none border-[#c6c6c6] h-10"
+                        className="border-[0.5px] p-1 rounded-r-[40px]
+                         outline-none border-[#c6c6c6] h-8
+                         w-[10vw] sm:w-auto"
                         onClick={() => {
                             // search restaurant from main array
                             const searchedResto = restoArr.filter((res) => {
@@ -144,8 +145,8 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
 
                 {/* Filter Restaurant */}
                 <button
-                    className="m-2 cursor-pointer bg-orange-500 rounded-md p-2 text-white
-                    font-medium"
+                    className="h-8 m-2 cursor-pointer bg-orange-500 rounded-md px-1 text-white font-medium 
+                    w-[40vw] sm:w-auto"
                     onClick={() => {
 
                         const filteredResto = restoArr.filter((res) => {

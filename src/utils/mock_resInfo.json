@@ -1,0 +1,1135 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Baskin Robbins Happyness Shakes",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            },
+                            {
+                                "id": "Dineout",
+                                "title": "Dineout",
+                                "cta": "https://swiggy.com/menu/561280/dineout"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "561280",
+                            "name": "Baskin Robbins Happyness Shakes",
+                            "city": "Bangalore",
+                            "slugs": {
+                                "restaurant": "baskin-robbins-happyness-shakes-4th-b-block-koramangala-koramangala",
+                                "city": "bangalore"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/12/80ce771f-7329-4df8-968d-5923700c02e0_561280.jpg",
+                            "locality": "Koramangala",
+                            "areaName": "Koramangala",
+                            "costForTwo": "25000",
+                            "costForTwoMessage": "₹250 for two",
+                            "cuisines": [
+                                "Beverages",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.6,
+                            "feeDetails": {
+                                "restaurantId": "561280",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "5588",
+                            "avgRatingString": "4.6",
+                            "totalRatingsString": "<3 ratings",
+                            "sla": {
+                                "restaurantId": "561280",
+                                "deliveryTime": 44,
+                                "minDeliveryTime": 40,
+                                "maxDeliveryTime": 45,
+                                "lastMileTravel": 7.5,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 1,
+                                "slaString": "40-45 MINS",
+                                "lastMileTravelString": "7.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseMessage": "Closes soon",
+                                "nextCloseTime": "2025-02-16 23:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "Flat ₹100 off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Flat ₹100 off on orders above ₹999",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹100 off on orders above ₹999 | Use code FLAT100",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "10% off upto ₹150|Use HSBCFEST Above ₹499",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "baskin-robbins-happyness-shakes-4th-b-block-koramangala-koramangala",
+                            "multiOutlet": true,
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "# 80 , 7th cross 16th B main , opp BDA complex 4th B block, koramangala"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Beverages,Desserts"
+                                }
+                            ],
+                            "totalRatings": 1,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "Flat ₹100 off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Flat ₹100 off on orders above ₹999",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹100 off on orders above ₹999 | Use code FLAT100",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "10% off upto ₹150|Use HSBCFEST Above ₹499",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "minValue": 699,
+                                    "maxValue": 999,
+                                    "priority": 1,
+                                    "couponCode": "FLAT100",
+                                    "discountInfo": {
+                                        "discountType": "Flat",
+                                        "value": 100
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to save ₹100 | Code FLAT100",
+                                    "unlockedMessage": "FLAT100 Coupon Unlocked! Use it to save ₹100",
+                                    "logoCtx": {}
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/561280"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "nearestOutletNudge": {
+                                "nearestOutletInfo": {
+                                    "siblingOutlet": {
+                                        "id": "810943",
+                                        "city": "0",
+                                        "slugs": {},
+                                        "areaName": "RESIDENCY ROAD",
+                                        "costForTwo": "0",
+                                        "feeDetails": {},
+                                        "sla": {
+                                            "deliveryTime": 21,
+                                            "lastMileTravel": 2.1,
+                                            "slaString": "21 MINS",
+                                            "lastMileTravelString": "2.1 km",
+                                            "iconType": "ICON_TYPE_EMPTY"
+                                        },
+                                        "availability": {
+                                            "restaurantClosedMeta": {}
+                                        },
+                                        "aggregatedDiscountInfo": {
+                                            "visible": true
+                                        },
+                                        "badges": {},
+                                        "aggregatedDiscountInfoV2": {
+                                            "visible": true
+                                        },
+                                        "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                                        "cartOrderabilityNudgeBanner": {
+                                            "parameters": {},
+                                            "presentation": {}
+                                        },
+                                        "featuredSectionInfo": {}
+                                    }
+                                },
+                                "nearestOutletComms": {
+                                    "title": {
+                                        "text": "Get your order 23 min faster"
+                                    },
+                                    "subTitle": {
+                                        "text": "Switch to the faster outlet"
+                                    }
+                                }
+                            },
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "12.9314717,77.62314330000004",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {}
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 5,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            },
+                            "scrollBar": {}
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹100 OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "81904a86-1cff-40a4-be1b-35d43e8da22c"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FLAT100",
+                                            "description": "ABOVE ₹999",
+                                            "offerType": "offers",
+                                            "restId": "561280",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE FLAT100"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹150",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/1/31/c1779f43-0cfd-4cc3-ab65-323a857b3327_HSBC.png",
+                                            "offerIds": [
+                                                "48e163e2-2bb4-43a2-afde-a1fbb5e280c0"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE HSBCFEST",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "561280",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/1/31/c1779f43-0cfd-4cc3-ab65-323a857b3327_HSBC.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE HSBCFEST"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "30% OFF UPTO ₹150",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/1/31/c9e54b4a-4849-437d-a251-fd411db19028_AxisMenuLogo.png",
+                                            "offerIds": [
+                                                "4aec9661-3b16-47f4-8bce-36f6d95283f1"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AXIS30",
+                                            "description": "ABOVE ₹200",
+                                            "offerType": "offers",
+                                            "restId": "561280",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/1/31/c9e54b4a-4849-437d-a251-fd411db19028_AxisMenuLogo.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AXIS30"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹50 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/1/b1fcb59a-96a1-4d29-ae11-8662e28469c0_ICICI.png",
+                                            "offerIds": [
+                                                "be6e0653-72f9-4c4a-a296-cd065bf6c420"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "NO CODE REQUIRED",
+                                            "description": "ABOVE ₹599",
+                                            "offerType": "offers",
+                                            "restId": "561280",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/1/b1fcb59a-96a1-4d29-ae11-8662e28469c0_ICICI.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "NO CODE REQUIRED"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹120 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/1/31/6e5b2c02-ce42-45ab-81ed-1f7aa4bbc705_AxisMenuLogo.png",
+                                            "offerIds": [
+                                                "b0f7bf15-fe48-4854-8c9a-0203f68daa8e"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AXIS120",
+                                            "description": "ABOVE ₹500",
+                                            "offerType": "offers",
+                                            "restId": "561280",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/1/31/6e5b2c02-ce42-45ab-81ed-1f7aa4bbc705_AxisMenuLogo.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AXIS120"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Chocolate Milkshakes",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493747",
+                                                            "name": "Belgian Bliss Milkshake",
+                                                            "category": "Chocolate Milkshakes",
+                                                            "description": "A rich chocolate milkshake with ice cream, dark chocolate cookies, and a caramel ribbon. Every sip feels like a sweet hug!\n288 grms /  352.165 kcal.Allergen-Contains Milk, Wheat , Soya",
+                                                            "imageId": "520da84cba5f8a79c90ef9ab76be4df5",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493743",
+                                                            "name": "Bavarian Chocolate Milkshake",
+                                                            "category": "Chocolate Milkshakes",
+                                                            "description": "An intensely indulgent chocolate milkshake with ice cream, chocolate pieces, and cashew nut crispies. Crunchy, divine, and sinful all at once!--288 grms / 439.1 kcal.Allergen-Contains Milk,Soya, Nuts",
+                                                            "imageId": "b8df89abbd4dfd5e8228a653f5a48554",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493813",
+                                                            "name": "Gold Medal Ribbon Milkshake",
+                                                            "category": "Chocolate Milkshakes",
+                                                            "description": "A delightful medley of vanilla and chocolate, and a sweet caramel ribbon- this is a milkshake that?s your dream come true!\n288 grms /  337.015 kcal.Allergen-Contains Milk,Soya",
+                                                            "imageId": "799cb80afbbee83ea68f0cdf36ab50a1",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493884",
+                                                            "name": "Mint Milk Chocolate Chips Milkshake",
+                                                            "category": "Chocolate Milkshakes",
+                                                            "description": "A milkshake that tells the love story of mint and chocolate like nobody else! This classic flavour will make every Mint and Milk chocolate fan?s day.\n288 grms /  336.105 kcal.Allergen-Contains Milk,Soya",
+                                                            "imageId": "bfeb601505b7e78e91f135a0f880c55a",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122143844",
+                                                            "name": "Chocolate Almond Praline Milkshake",
+                                                            "category": "Chocolate Milkshakes",
+                                                            "description": "Rich dark chocolate ice cream meets praline-coated almonds, elegantly swirled in smooth vanilla milk for a divine sip that's pure bliss!",
+                                                            "imageId": "1ea8762e9f008297f5d9984a52bf9f82",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122143847",
+                                                            "name": "Chocolate Mousse Royale Milkshake",
+                                                            "category": "Chocolate Milkshakes",
+                                                            "description": "Go gourmet with our Chocolate Mousse Royale milkshake.  Mischevious chocolate chip playing peekaboo with chocolate mousse ice cream.",
+                                                            "imageId": "0a6f24d274492c72cc804dcac940a22c",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "520da84cba5f8a79c90ef9ab76be4df5",
+                                            "categoryId": "47520000"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Super-Duper Thick Shakes",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493775",
+                                                            "name": "Cotton Candy and Marshmallows Super-Duper Thickshake",
+                                                            "category": "Super-Duper Thick Shakes",
+                                                            "description": "Dreamy thickshake crafted with the all-time-favourite Cotton Candy ice cream. Topped with whipped cream, coloured sprinkles and mushy marshmallows. Yum!\n300ml / 588.83 kcal.Allergen-Contains Milk and soy.May contains Cereal(wheat)and Nut.",
+                                                            "imageId": "4c150d10cf1f1f4f38e6e8e1543fc797",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493749",
+                                                            "name": "Berry Bubble Super-Duper Thickshake",
+                                                            "category": "Super-Duper Thick Shakes",
+                                                            "description": "Creamy and luscious thickshake made with BR favourite Very Berry Strawberry ice cream and fruity popping boba. Topped with whipped cream and some more popping boba to give you an out of the world flavour experience. Berry tempting, right?\n300ml / 531.58 kcal.Allergen-Contains Milk and soy.May contains Cereal(wheat)and Nut.",
+                                                            "imageId": "2e5d3e588767037000e3b8a1d084262c",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493755",
+                                                            "name": "Caffe Mocha Super-Duper Thickshake",
+                                                            "category": "Super-Duper Thick Shakes",
+                                                            "description": "Relive the classic cold coffee experience with this thickshake made especially with roasted coffee ice cream, and garnished with whipped cream, chocolate sauce and chocolate sprinkles. You know where to head for your next caffeine rush!\n300ml / 556.25 kcal.Allergen-Contains Milk and soy. May Contains Cereal(wheat) and Nut.",
+                                                            "imageId": "9fa7a88402ae24199e99e489ab366f70",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "4c150d10cf1f1f4f38e6e8e1543fc797",
+                                            "categoryId": "24312483"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Classics & Nuts Milkshakes",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493947",
+                                                            "name": "Roasted Coffee Creme Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "description": "For all coffee lovers! A milkshake made with rich, freshly ground coffee ice cream--288 grms / 382.5 kcal.Allergen-Contains Milk",
+                                                            "imageId": "f3f0e3d06a79b8cd768a5da4e452425e",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493954",
+                                                            "name": "Vanilla Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "description": "A classic that never goes out of style! A rich milkshake made with smooth, creamy Vanilla ice cream.--288 grms / 390 kcal.Allergen-Contains Milk",
+                                                            "imageId": "cad38c5595029db1a155c54c0188b6fc",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493773",
+                                                            "name": "Cotton Candy Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "description": "A throwback to your childhood favorite! Milkshake with pink, purple and childhood-colored cotton candy ice cream--288 grms / 397.6 kcal.Allergen-Contains Milk",
+                                                            "imageId": "3f827e9a4deaaecc5148b3e521094be2",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493827",
+                                                            "name": "Honey Nut Crunch Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "description": "A milkshake made with rich caramel and honey praline almond ice cream. Honey, it’s nutty, crunchy, and delicious!--288 grms / 424.8 kcal.Allergen-Contains Milk,Nuts",
+                                                            "imageId": "e5ffbb024facfe43352b10e308cba463",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493926",
+                                                            "name": "Roasted Californian Almond Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "description": "A delightful milkshake made with Vanilla ice cream, a caramel ribbon, and almond praline. A flavour you?re not likely to forget!--288 grms / 429.5 kcal.Allergen-Contains Milk,Nuts",
+                                                            "imageId": "2382a1622658efe819b9cb0444c2cd18",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 0"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493833",
+                                                            "name": "Hop Scotch Butterscotch Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "description": "A tempting milkshake with a butterscotch base, fun cashew crunch, and an enticing butterscotch ribbon. Heaven is calling, are you going to answer?\n288 grms /  447.075 kcal.Allergen-Contains Milk,Nuts",
+                                                            "imageId": "ab94336ecd9e76495117b03820f111a6",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493917",
+                                                            "name": "Pralines & Cream Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "description": "The perfect blend of crunch and sweetness! A milkshake with a vanilla base, praline coated pecans, and a delicate caramel ribbon is just what you needed.\n288 grms /  359.645 kcal.Allergen-Contains Milk,Nuts",
+                                                            "imageId": "a35e4739495fc8be6b502c789836da65",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 0"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122143840",
+                                                            "name": "Butterscotch Ribbon Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "description": "Savor the ultimate nutty delight with our Butterscotch Ribbon ice cream milkshake, featuring creamy vanilla ice cream swirled with crunchy butterscotch ribbon, all crafted to perfection.",
+                                                            "imageId": "88ae73c3d58c58bbf71d1f0b0ae59649",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122143863",
+                                                            "name": "Lotus Biscoff Milkshake",
+                                                            "category": "Classics & Nuts Milkshakes",
+                                                            "imageId": "0ee9c96daa9790347fba522ec4e8dc19",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "f3f0e3d06a79b8cd768a5da4e452425e",
+                                            "categoryId": "47520002"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Fruit Milkshakes",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493753",
+                                                            "name": "Black Currant Milkshake",
+                                                            "category": "Fruit Milkshakes",
+                                                            "description": "A sweet treat like never before! A black currant milkshake with black currant ice cream and real black currants and raisins. Perfection.--288 grms / 395.5 kcal.Allergen-Contains Milk",
+                                                            "imageId": "f597600a5dd18922a4ff9781f49623ce",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 26500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493797",
+                                                            "name": "Fruit Overload Milkshake",
+                                                            "category": "Fruit Milkshakes",
+                                                            "description": "An overload of Happyness in a glass! This milkshake is made with a blend of orange ice cream, exotic fruit chunks, and  jelly. A delicious fruity delight! \n288 grms / 366.875 kcal.Allergen-Contains Milk",
+                                                            "imageId": "e90f5380c9847f9707dfce69f01d2912",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95493740",
+                                                            "name": "Banana 'N Strawberries Milkshake",
+                                                            "category": "Fruit Milkshakes",
+                                                            "description": "A duo that has stood the test of time! A milkshake with real bananas & strawberry ice cream, and a sweet strawberry ribbon.--288 grms / 389.2 kcal.Allergen-Contains Milk",
+                                                            "imageId": "743c2045b2e5b0bb0e0ac0d8136aed7a",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 0"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "f597600a5dd18922a4ff9781f49623ce",
+                                            "categoryId": "47519999"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 11222334001684"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Baskin Robbins Happyness Shakes",
+                                            "area": "Koramangala",
+                                            "completeAddress": "# 80 , 7th cross 16th B main , opp BDA complex 4th B block, koramangala"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "8b0abf68-62f9-450c-85e8-0f6b0a8b2cf1",
+    "sid": "iza43cf4-b3ef-4b4e-81ff-25ee02a4eb7d",
+    "deviceId": "46bb8071-4dbe-1b7b-a797-3c20559636d2",
+    "csrfToken": "J4P9Z3Sye0kQ-U6MvXJGMcs85pDqbliBQjk3JTjU"
+}

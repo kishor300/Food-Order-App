@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./src/components/Header.js";
 import Body from "./src/components/Body";
+import Footer from "./src/components/Footer.js";
 import About from "./src/components/About.js";
 import Contact from "./src/components/Contact.js";
 import Error from "./src/components/Error.js";
@@ -58,6 +59,7 @@ const AppLayout = () => {
                         <div className="app">
                             <Header />
                             <Outlet />
+                            <Footer />
                         </div >
                     </UserContext.Provider>                             {/* For Context Variable */}
 

@@ -12,19 +12,28 @@ const Cart = () => {
         return (dispatchAction(cartSliceAction.clearCart()))
     }
     return (
-        <div className='text-center m-4 p-4'>
+        <div className='text-center my-4'>
             <h1 className='text-2xl font-bold'>Cart</h1>
-            <button
-                className='p-2 m-2 rounded-lg bg-gray-500 text-white font-semibold'
-                onClick={handleClearCart}
-            >
-                Clear
-            </button>
+            {/* Clear Cart Button */}
+            {
+                cartItems.length === 0 ?
+                    <span></span>
+                    :
+                    <button
+                        className='p-2 m-2 rounded-lg  bg-orange-500 text-white font-medium'
+                        onClick={handleClearCart}
+                    >
+                        Clear
+                    </button>
+            }
             {/* Cart Items */}
-            <div className='w-6/12 m-auto'>
+            <div className='w-[80vw] sm:w-[50vw] m-auto'>
                 {
                     cartItems.length === 0 ?
-                        <h1>Cart is empty!! Add items to Cart</h1>
+                        <div>
+                            <p>Cart is empty !!</p>
+                            <p>Add items to Cart</p>
+                        </div>
                         :
                         <ItemList items={cartItems} />
                 }
