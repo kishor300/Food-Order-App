@@ -12,20 +12,20 @@ const Shimmer = () => {
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-2 justify-items-center">
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[52vh] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] h-[42vh] rounded-md"></div>
                 </div>
             </div>
         </>
