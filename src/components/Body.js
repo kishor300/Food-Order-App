@@ -53,10 +53,10 @@ const Body = () => {
         setRestoArr(restoData);
     }
 
-    return <Shimmer />
-    // return restoArr.length === 0 ? (<Shimmer />) : (
-    //     <BodyWithData restoArr={restoArr} setRestoArr={setRestoArr} />
-    // );
+    // return <Shimmer />
+    return restoArr.length === 0 ? (<Shimmer />) : (
+        <BodyWithData restoArr={restoArr} setRestoArr={setRestoArr} />
+    );
 
 };
 
