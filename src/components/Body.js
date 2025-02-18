@@ -163,7 +163,7 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
 
             {/* Restaurant Container */}
 
-            <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-items-center gap-2">
+            <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-2 justify-items-center">
 
                 {/* {console.log("filteredRestoArr ==> ", filteredRestoArr)} */}
 

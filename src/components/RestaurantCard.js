@@ -17,7 +17,9 @@ const RestaurantCard = (props) => {
     return (
         <div
             data-testid="resto_card"
-            className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md
+            // className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md
+            // hover:border-[1px] border-black cursor-pointer"
+            className="bg-[#f0f0f0] px-1 pt-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md
             hover:border-[1px] border-black cursor-pointer"
         >
             <Link to={"/restaurants/" + restaurantInfo.id}>
