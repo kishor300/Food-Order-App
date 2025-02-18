@@ -74,7 +74,7 @@ function RestaurantMenu() {
     } else {
         return (
             <>
-                <div className='text-center font-bold'>
+                <div className='text-center font-bold mx-2'>
                     <h1 className='my-4 text-2xl'>{name}</h1>
                     <p className='text-lg'>
                         {cuisines.join(" ,")} - {costForTwoMessage}
