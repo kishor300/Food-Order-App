@@ -11,19 +11,16 @@ const Shimmer = () => {
                     <button className="m-2 cursor-pointer bg-[#f0f0f0] rounded-md p-2 w-[178px] h-11"></button>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-items-center gap-2">
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
-                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[200px] h-[360px] rounded-md"></div>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-2 justify-items-center">
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
+                    <div className="bg-[#f0f0f0] pt-1 px-1 pb-3 w-[45vw] sm:w-[30vw] md:w-[15vw] rounded-md"></div>
                 </div>
             </div>
         </>
