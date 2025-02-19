@@ -90,15 +90,15 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
             </div> */}
 
             {/* Action */}
-            <div className="flex my-4 text-xs sm:text-base">
+            <div className="flex gap-4 w-fit mx-auto my-4 text-xs sm:text-base">
 
                 {/* Search Restaurant */}
-                <div className="flex items-center mx-2">
+                <div className="flex items-center">
                     <input
                         data-testid="search-input"
                         type="text"
                         className="h-8 p-2 rounded-l-[40px] outline-none border-[0.5px] border-[#c6c6c6] border-r-0 
-                        w-[30vw] sm:w-auto"
+                        w-[45vw] sm:w-fit"
                         placeholder="Search"
                         value={searchText}
                         onChange={(event) => {
@@ -109,7 +109,7 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
                         data-testid="search-button"
                         className="border-[0.5px] p-1 rounded-r-[40px]
                          outline-none border-[#c6c6c6] h-8
-                         w-[10vw] sm:w-auto"
+                         w-[10vw] sm:w-fit"
                         onClick={() => {
                             // search restaurant from main array
                             const searchedResto = restoArr.filter((res) => {
@@ -147,7 +147,7 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
                 {/* Filter Restaurant */}
                 <button
                     className="h-8 m-2 cursor-pointer bg-orange-500 rounded-md px-1 text-white font-medium 
-                    w-[40vw] sm:w-auto"
+                    w-[26vw] sm:w-fit box-border"
                     onClick={() => {
 
                         const filteredResto = restoArr.filter((res) => {
@@ -159,7 +159,8 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
                         // update only to filtered array
                         setFilteredRestoArr(filteredResto);
 
-                    }}>Top Rated Restaurants</button>
+                    }}
+                >Top Restaurants</button>
             </div>
 
             {/* Restaurant Container */}

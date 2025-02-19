@@ -28,6 +28,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
     "@types/jest": "^29.5.14",
+    "lucide-react": "^0.475.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0",
