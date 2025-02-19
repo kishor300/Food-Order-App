@@ -11,13 +11,13 @@ const Footer = () => {
             <div className='grid grid-cols-2 w-[90vw] sm:w-[45vw] mx-auto p-1 gap-3 text-sm sm:text-base justify-items-center'>
                 <div className='w-[35vw] sm:w-[15vw] ml-5'>
                     <h1 className='font-bold mb-1'>Company</h1>
-                    <Link to="/"><p>About Us</p></Link>
+                    <Link to="/about"><p>About Us</p></Link>
                     <Link to="/"><p>Careers</p></Link>
                     <Link to="/"><p>Team</p></Link>
                 </div>
                 <div className='w-[35vw] sm:w-[15vw]'>
                     <h1 className='font-bold mb-1'>Contact Us</h1>
-                    <Link to="/"><p>Help & Support</p></Link>
+                    <Link to="/contact"><p>Help & Support</p></Link>
                     <Link to="/"><p>Partner with us</p></Link>
                 </div>
                 <div className='w-[35vw] sm:w-[15vw] ml-5'>
