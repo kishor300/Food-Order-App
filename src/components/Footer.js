@@ -7,7 +7,8 @@ import facebook_logo from '../assets/facebook_logo.png';
 
 const Footer = () => {
     return (
-        <div className='border-t my-4'>
+
+        <footer className='w-full border-t my-2'>
             <div className='grid grid-cols-2 w-[90vw] sm:w-[45vw] mx-auto p-1 gap-3 text-sm sm:text-base justify-items-center'>
                 <div className='w-[35vw] sm:w-[15vw] ml-5'>
                     <h1 className='font-bold mb-1'>Company</h1>
@@ -64,7 +65,7 @@ const Footer = () => {
                     <p className='text-gray-500 text-center text-xs md:text-sm'>Kishor Deshmukh © 2025</p>
                 </div>
             </div>
-        </div>
+        </footer>
 
     )
 }

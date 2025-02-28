@@ -51,11 +51,11 @@ const Header = () => {
                                 fill="black"
                                 height="34px"
                             >
-                                <circle cx="12" cy="8" r="4" stroke="black" stroke-width="1.5px" fill="none" />
+                                <circle cx="12" cy="8" r="4" stroke="black" strokeWidth="1.5px" fill="none" />
                                 <path
                                     d="M4 20c0-4 4-6 8-6s8 2 8 6"
                                     stroke="black"
-                                    stroke-width="1.5px"
+                                    strokeWidth="1.5px"
                                     fill="none"
                                 />
                             </svg>

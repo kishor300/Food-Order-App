@@ -74,6 +74,7 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
     // const { loggedInUser, setUserName } = useContext(UserContext);
 
     return (
+
         <div className="body mx-2 sm:mx-4">
 
             {/* Use Of Context */}
@@ -109,7 +110,7 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
                         data-testid="search-button"
                         className="border-[0.5px] p-1 rounded-r-[40px] bg-orange-500
                          outline-none border-[#c6c6c6] h-8
-                         w-[10vw] sm:w-fit"
+                         w-[10vw] sm:w-[5vw] lg:w-[3vw]"
                         onClick={() => {
                             // search restaurant from main array
                             const searchedResto = restoArr.filter((res) => {
@@ -165,7 +166,7 @@ const BodyWithData = ({ restoArr, setRestoArr }) => {
 
             {/* Restaurant Container */}
 
-            <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-2 justify-items-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-2 justify-items-center my-2">
 
                 {/* {console.log("filteredRestoArr ==> ", filteredRestoArr)} */}
 

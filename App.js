@@ -56,11 +56,15 @@ const AppLayout = () => {
                     <UserContext.Provider
                         value={{ loggedInUser: userName, setUserName }}
                     >                                                   {/* For Context Variable */}
-                        <div className="app">
+                        <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
+                            {/* Changed flex-direction to flexDirection (camelCase for JSX inline styles). */}
                             <Header />
-                            <Outlet />
+                            <div style={{ flexGrow: 1 }}>
+                                <Outlet />
+                            </div>
                             <Footer />
-                        </div >
+                        </div>
+
                     </UserContext.Provider>                             {/* For Context Variable */}
 
                 </Provider>                                             {/* For Redux Store */}
@@ -106,5 +110,5 @@ const appRouter = createBrowserRouter([
     }
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById("rootApp"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={appRouter} />);
