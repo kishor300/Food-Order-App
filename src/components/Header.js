@@ -115,7 +115,7 @@ const Header = () => {
             {/* Mobile */}
             {
                 isOpen && (
-                    <ul className="bg-[#f0f0f0] z-10 fixed top-auto w-full shadow-lg md:hidden p-4 space-y-2 list-none font-medium text-xs md:text-lg"
+                    <ul className="bg-[#f0f0f0] z-10 fixed top-[52px] w-full shadow-lg md:hidden p-4 space-y-2 list-none font-medium text-xs md:text-lg"
                     >
                         {/* <li>
                     User :{loggedInUser}
