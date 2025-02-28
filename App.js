@@ -56,12 +56,13 @@ const AppLayout = () => {
                     <UserContext.Provider
                         value={{ loggedInUser: userName, setUserName }}
                     >                                                   {/* For Context Variable */}
+                        <Header />
                         <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
-                            {/* Changed flex-direction to flexDirection (camelCase for JSX inline styles). */}
-                            <Header />
+                            {/* flex-direction to flexDirection (camelCase for JSX inline styles) */}
                             <div style={{ flexGrow: 1 }}>
                                 <Outlet />
                             </div>
+                            {/* OR Footer - style={{marginTop:"auto"}} */}
                             <Footer />
                         </div>
 
